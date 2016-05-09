@@ -11,4 +11,4 @@ Scenario: Admin user views homepage
 Given I am admin
 When I visit "/"
 Then I should see "Welcome to Site-Install"
-Adn I should see "Add content"
+And I should see "Add content"
